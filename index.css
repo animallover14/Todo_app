@@ -1,8 +1,17 @@
 h1{
-    color: blue;
+    color: blue ;
     font-family: helvetica;
 }
 
 body{
-    background color: blue;
+    background-color: white;
+}
+
+h4{
+    color: blue;
+}
+
+
+#apple{
+    color: red;
 }
