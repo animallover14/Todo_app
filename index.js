@@ -6,7 +6,16 @@ $(document).ready(function(){
         var numberofpomadaros=$("#pomadarosinput").val()
         var nameoftodo=$("#todoinpput").val()
         console.log(nameoftodo)
-        $("ul").append("<li><input type='checkbox' />" + nameoftodo + "<span class='time'>" + numberofpomadaros + " pomadaros </span></li>")
+        $("ul").append("<li><input type='checkbox' />" 
+        + nameoftodo + "<span class='time'>" 
+        + numberofpomadaros 
+        + " pomadaros </span></li>")
     })
+$("input[type='checkbox']").click(function(){
+    $(this).closest("li").toggleClass("completed")
+    $(this).closest("span").toggleClass("completed-time")
+}
+)
+
 })
 

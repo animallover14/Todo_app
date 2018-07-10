@@ -54,6 +54,11 @@ ul{
     font-family: monospace;
     float: right;
     margin: 6px;
-    
+}
 
+.completed{
+    text-decoration: line-through;
+}
+.completed-time{
+    text-decoration: line-through;
 }
