@@ -42,9 +42,15 @@ ul{
     list-style: none;
 }
 
-.todobutton{
+#todobutton{
     color: white;
-    
+    background-color: dodgerblue;
+    width: 100px;
+    height: 30px;
+    margin-left: 100px;
 }
 
-
+.time{
+    
+    
+}
