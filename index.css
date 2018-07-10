@@ -51,6 +51,9 @@ ul{
 }
 
 .time{
+    font-family: monospace;
+    float: right;
+    margin: 6px;
     
-    
+
 }
